@@ -1,0 +1,13 @@
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.vbprojAssemblyReference.cache
+H:\1st Year\IS1110\Assignment\Assignment\bin\Debug\Assignment.exe.config
+H:\1st Year\IS1110\Assignment\Assignment\bin\Debug\Assignment.exe
+H:\1st Year\IS1110\Assignment\Assignment\bin\Debug\Assignment.pdb
+H:\1st Year\IS1110\Assignment\Assignment\bin\Debug\Assignment.xml
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.frmLogin.resources
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.Resources.resources
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.vbproj.GenerateResource.cache
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.vbproj.CoreCompileInputs.cache
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.exe
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.xml
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.pdb
+H:\1st Year\IS1110\Assignment\Assignment\obj\Debug\Assignment.frmUser.resources
