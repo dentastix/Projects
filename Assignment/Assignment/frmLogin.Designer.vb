@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmLogin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmLogin
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.lblPassword = New System.Windows.Forms.Label()
@@ -42,6 +42,7 @@ Partial Class frmLogin
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
+        Me.lblPassword.BackColor = System.Drawing.Color.Transparent
         Me.lblPassword.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPassword.Location = New System.Drawing.Point(107, 250)
         Me.lblPassword.Name = "lblPassword"
@@ -59,19 +60,24 @@ Partial Class frmLogin
         'lblWelcome
         '
         Me.lblWelcome.AutoSize = True
+        Me.lblWelcome.BackColor = System.Drawing.Color.Transparent
+        Me.lblWelcome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblWelcome.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblWelcome.Location = New System.Drawing.Point(42, 178)
         Me.lblWelcome.Name = "lblWelcome"
-        Me.lblWelcome.Size = New System.Drawing.Size(389, 17)
+        Me.lblWelcome.Size = New System.Drawing.Size(391, 19)
         Me.lblWelcome.TabIndex = 6
         Me.lblWelcome.Text = "Welcome User, You can sign in by entering your Password below!"
         '
         'PictureBox1
         '
+        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox1.Image = Global.Assignment.My.Resources.Resources.My_Best_Friend_ltd_
-        Me.PictureBox1.Location = New System.Drawing.Point(272, -15)
+        Me.PictureBox1.Location = New System.Drawing.Point(146, -12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(195, 190)
+        Me.PictureBox1.Size = New System.Drawing.Size(177, 130)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -80,13 +86,13 @@ Partial Class frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(463, 414)
-        Me.Controls.Add(Me.lblWelcome)
-        Me.Controls.Add(Me.txtPassword)
-        Me.Controls.Add(Me.lblPassword)
-        Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.btnLogin)
+        Me.Controls.Add(Me.lblWelcome)
+        Me.Controls.Add(Me.lblPassword)
         Me.Name = "frmLogin"
         Me.Text = "Login Page"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

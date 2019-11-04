@@ -27,5 +27,10 @@ Assignment
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Assignment.My.Resources.Resources.My_Best_Friend_ltd1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

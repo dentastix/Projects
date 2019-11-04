@@ -137,5 +137,8 @@
   <ItemGroup>
     <None Include="Resources\My Best Friend ltd..png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My Best Friend ltd.1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
